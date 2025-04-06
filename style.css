@@ -450,3 +450,100 @@ body {
     'card-8';
   }
 }
+
+/* ==== Start Inspriation Section ==== */
+.inspiration-area {
+  background-color: #FCF8F3;
+  margin-top: 50px;
+}
+
+.inspiration {
+  display: grid;
+  grid-template-areas: 
+  'left left right right slider slider';
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-side {
+  grid-area: left;
+  padding-top: 195px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.left-side h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.left-side .para {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #616161;
+}
+
+.left-side .btn {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #B88E2F;
+  border: none;
+  padding: 10px 28px;
+}
+
+.right-side {
+  grid-area: right;
+  padding: 45px 0px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 428px;
+  left: 20px;
+}
+
+.text {
+  background-color: #ffffff;
+  width: 175px;
+  height: 150px;
+  padding-left: 25px;
+  padding-top: 40px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #616161;
+}
+
+.text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.arro-icon {
+  background-color: #B88E2F;
+  padding: 12px;
+}
+
+.fa-arrow-right {
+  width: 24px;
+  height: 20px;
+  color: #ffffff;
+}
+
+.image-slider {
+  grid-area: slider;
+  padding: 45px 0px;
+}
+
+/* ==== End Inspriation Section ==== */
